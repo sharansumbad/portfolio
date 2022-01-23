@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Sharanbasav",
 	links: [
 		{
 			title: "About",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Sharanbasav",
+	description: " A Data Enthusiast and an ardent Data Scientist with excellent knowledge in Machine Learning Algorithms and Strong Business Sense. Innovative and analytically minded with Data science experience to bring to the table.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,18 +36,17 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1u4TlBZGiVL_rlISD8XMtvqsihFwnxFmh/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
 }
 
 export const about = {
-	title: "Who I am",
+	title: "About Me ",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"Presently working as a Data Science intern in the R&D team at an Indianapolis-based startup The Bee Corp, Here I assist to create technologies to help beekeepers in maximizing pollination revenue per hive, as well as to assist farmers in lowering costs and improving pollination quality. An application Called  Verifli , a hive grading system that is both fair and objective. With the widespread use of knowledge in data analysis and modeling, as well as the refinement of current algorithms and the development of new algorithms for use in products,Being a Machine learning buff and data-driven technology fanatic, I am a team-oriented person with fluent communication skills. Pursuing a master’s degree focused on Data Science and Graduate Researcher experience at Indiana University-Bloomington, I offer exceptional abilities in Machine Learning, Time Series Analysis, NLP, Deep Learning, Computer Vision, Data Analysis, Database Systems, and Statistical Analysis. ",
+		" Apart from that I enjoy Photography , an avid Reader of Non-Fiction , Love Meditating and also Coffee and Conversations.",
 	],
 }
 
@@ -55,13 +54,13 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Data Science Intern @ The Bee Corp",
+			description: "Data analysis and modeling, refining algorithms of the existing products, and developing new algorithms to be used in products",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Graduate Research Assistant @ Indiana University University-Bloomington ",
+			description: "Develope python functions emulating anonymized data of Norway tax returns from Statistical office of Norway, determine the  key areas influencing reliable measure of consumption of Norway population and Design the  python functions into Juli to increase  computation runtime of the functions",
 			icons: null,
 		}
 	],
@@ -71,40 +70,32 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Ethereum Price Prediction using sentiment Analysis",
+			description: "Performed VADAR Sentiment Analysis on the Comments data from the Sub reddit Ethereum after data preprocessing and obtained the time series data with the Sentiment Polarity of the comments of 180 days to forecast the Ethereum Prices.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/sharansumbad/Ethereum-Price-prediction-SentimentAnalyis",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Chicago Crime Analysis in Spark and R ",
+			description: "Extracted data using the Big Query API with 7.4 million records and 22 columns to analyze in Spark and perform Exploratory Data Analysis in R.	Executed Large Scale Analysis of the Crime data from 2001-2021 using spark data frame to prepare the data for modeling purpose.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/sharansumbad/Chicago-Crime-BIG-DATA-Analysis",
 				},
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Calsssification of Tweets",
+			description: "	Utilized unstructured text data and developed python functions to shape the data to feed into formulated Naïve Bayes machine learning model for classification of texts and calculate accuracy.The refined predictive model had an increased accuracy from 70.6% to 84.3% as compared to the classical Naïve Byes method available in the SciKitLearn library.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/sharansumbad/Calsssification-of-Tweets",
 				},
 			]
 		},
@@ -113,17 +104,12 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Books and Coffee Conversations are my thing.We can have a chat over any new ideas , Books or Music (or food) Feel free to reach out to me by email at sharanbasav.sumbad@gmail.com",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:sharanbasav.sumbad@gmail.com",
 			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
 		},
 	]
 }
@@ -131,35 +117,27 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Sharanbasav Sumbad | Data Scientist | Photographer | Avid Reader",
+	description: "Pursuing a master’s degree focused on Data Science and Graduate Researcher experience at Indiana University-Bloomington, I offer exceptional abilities in Machine Learning, Time Series Analysis, NLP, Deep Learning, Computer Vision, Data Analysis, Database Systems, and Statistical Analysis.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@sharanbasav",
+	description: "Data Scientist | Machine Learning  | Photographer ",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			title: "Resume",
+			link: "https://drive.google.com/file/d/1u4TlBZGiVL_rlISD8XMtvqsihFwnxFmh/view?usp=sharing",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/sharansumbad",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "http://www.linkedin.com/in/sharanbasav",
 		},
 	]
 }
